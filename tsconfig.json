@@ -1,5 +1,6 @@
 {
     "compilerOptions": {
+        "rootDir": "./src",
         "outDir": "./dist",
         "allowJs": true,
         "checkJs": true,
@@ -9,7 +10,8 @@
         "emitDeclarationOnly": false,
         "target": "ESNext",
         "strict": true,
-        "moduleResolution": "node"
+        "module": "nodenext",
+        "moduleResolution": "nodenext"
     },
     "include": ["src"],
     "exclude": ["node_modules"]
